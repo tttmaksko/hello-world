@@ -1,0 +1,49 @@
+# ¬ременные файлы настроек IDE
+# Visual Studio:
+*.sdf
+*.opendb
+*.opensdf
+*.VC.db
+*.user
+*.suo
+# IntelliJ IDEA:
+*.iws
+
+# ‘айлы настроек под конкретную систему
+Props__DirSettings.props
+
+# ¬ременные файлы компил€ции
+**/*Intermediate/**
+**/ipch/**
+**/Debug/**
+**/Release/**
+**/.vs/**
+/java/out/**
+**/libosmium.log
+**/AllCommon.log
+
+# –езультаты компил€ции
+_output/Bin/**
+
+# ¬ременные файлы документации
+**/docs/**/*.odt#
+**/docs/**/*.png
+**/docs/**/*.dia~
+**/docs/**/*.dia.autosave
+
+# ¬ременные файлы unit-тестов
+**/*test_data_tmp/**
+
+# —генерированные файлы
+#**/InterimMapDataLib/gen/**
+#**/WayRayMapLib/gen/**
+**/test_003/gen/**
+
+# ‘айлы, которые должны быть отключены от контрол€ версий (например временные)
+.ignoregit.*
+
+# файлы плэйлистов тестов в VS
+*.playlist
+
+# временные файлы git'а
+*.rej
