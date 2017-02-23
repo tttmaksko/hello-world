@@ -1,13 +1,15 @@
 #include <sstream>
+
 #include <gtest/gtest.h>
 
-#include "hello/hello.h"
+#include <hello/hello.h>
 
 using namespace hello;
 
-TEST(hello, hello)
-{
+TEST(hello, hello) {
 	std::stringstream ss;
+
 	greet(ss);
-	ASSERT_EQ("Hello world!", ss.str());
+
+	ASSERT_EQ("Hello, world", ss.str());
 }
