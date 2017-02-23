@@ -18,6 +18,7 @@ Props__DirSettings.props
 **/Debug/**
 **/Release/**
 **/.vs/**
+**/.build/**
 /java/out/**
 **/libosmium.log
 **/AllCommon.log
