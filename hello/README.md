@@ -1,0 +1,1 @@
+https://travis-ci.org/tttmaksko/hello-world.svg?branch=master
