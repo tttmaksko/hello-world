@@ -15,7 +15,7 @@ script:
 #    - ./hello
 
 env:
-#    - BUILD_TYPE=Release COMPILER=g++-4.9
+    - BUILD_TYPE=Release COMPILER=g++-4.9
 #    - BUILD_TYPE=Release COMPILER=g++-5
     - BUILD_TYPE=Release COMPILER=g++-6
 #    - BUILD_TYPE=Release COMPILER=clang++-3.9
@@ -33,7 +33,7 @@ addons:
 #        - llvm-toolchain-trusty-3.9
 #        - llvm-toolchain-trusty-4.0
         packages:
-#        - g++-4.9
+        - g++-4.9
 #        - g++-5
         - g++-6
 #        - clang++-3.9
