@@ -18,7 +18,7 @@ env:
     - BUILD_TYPE=Debug   COMPILER=g++-5
     - BUILD_TYPE=Debug   COMPILER=g++-6
     - BUILD_TYPE=Debug   COMPILER=clang++-3.9
-    - BUILD_TYPE=Debug   COMPILER=clang++-4.0
+#    - BUILD_TYPE=Debug   COMPILER=clang++-4.0
 
 addons:
     apt:
@@ -31,7 +31,7 @@ addons:
         - g++-5
         - g++-6
         - clang++-3.9
-        - clang++-4.0
+#        - clang++-4.0
 
 
 
