@@ -1,7 +1,7 @@
-п»ї#include <iostream>
+#include <iostream>
 
 int main ()
 {
-    // Р—РґСЂР°РІСЃС‚РІСѓР№ РјРёСЂ!
+    // Здравствуй мир!
 	std::cout << "hello world\n";
 }
